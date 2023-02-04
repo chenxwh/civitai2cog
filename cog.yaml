@@ -1,0 +1,34 @@
+build:
+  gpu: true
+  python_version: "3.10"
+  cuda: "11.6.2"
+  python_version: "3.10"
+  python_packages:
+    - "diffusers==0.12.1"
+    - "torch==1.13.1"
+    - "ftfy==6.1.1"
+    - "scipy==1.9.3"
+    - "transformers==4.26.0"
+    - "omegaconf==2.3.0"
+    - "accelerate==0.15.0"
+    
+predict: "predict.py:Predictor"
+
+  # system_packages:
+  #   - "libgl1-mesa-glx"
+  #   - "libglib2.0-0"
+#   python_packages:
+#     - "opencv-python==4.7.0.68"
+#     - "diffusers==0.11.1"
+#     - "torch==1.13.0"
+#     - "ftfy==6.1.1"
+#     - "scipy==1.9.3"
+#     - "transformers==4.25.1"
+#     - "accelerate==0.15.0"
+#     - "tqdm==4.64.1"
+#     - "scikit-image==0.19.3"
+#     - "safetensors==0.2.8"
+#     - "tensorboard==2.11.2"
+#     - "omegaconf==2.3.0"
+
+# predict: "predict.py:Predictor"
